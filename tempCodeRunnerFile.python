@@ -64,7 +64,7 @@ def main():
     # Example usage
     base_url = "https://jwyschool.atlassian.net"
     page_id = "65852"  # Page ID extracted from the URL
-    auth = HTTPBasicAuth("jwyschool@gmail.com", "ATATT3xFfGF0SoKPuz0TDoKgxBTOEc9hrSORQLFiTfqSTGBOcWpCuyhzBudnCiPq0MapTM7O8aBNX2WEzIg-zskTM_jZiMWPwqellUkMHhlZemSNsCSNx0Bh4kkFDG2Ni0Jru4eJHYkUjx1boffSwW8Stg527u60ZpNPvmz5I-IQPOM8EknDqPY=057C91DB")  # Replace with your username and API token
+    auth = HTTPBasicAuth("username", "token")  # Replace with your username and API token
     print("Fetching Confluence page data...")
 
     try:
